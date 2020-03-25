@@ -1,0 +1,39 @@
+body {
+ background-color: rgb(177, 177, 182);
+}
+h1 {
+ color: white;
+}
+p {
+
+ color:white;
+}
+.encabezado{
+  text-align: center;
+}
+.item1{
+  grid-area: top;
+}
+#imagen{
+  width: 100%;
+}
+img {
+  display: block;
+  align-content: center;
+  grid-area: top top;
+   margin-left: auto;
+  margin-right: auto;
+}
+#Bloque1{
+  grid-area: izq;
+  background-color:rgb(76, 76, 82);
+}
+#Bloque2{
+  grid-area: der;
+  background-color: orange;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas: 'top top' 
+  'izq der';
+}

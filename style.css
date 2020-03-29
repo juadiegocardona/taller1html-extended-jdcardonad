@@ -12,8 +12,6 @@ p {
   height: 100vh;
 }
 
-
-
 .encabezado{
   text-align: center;
 }
@@ -22,6 +20,8 @@ p {
 }
 #imagen{
   width: 100%;
+  object-fit: cover;  
+  display: block;
 }
 img {
   display: block;

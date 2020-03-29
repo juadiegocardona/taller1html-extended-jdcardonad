@@ -8,6 +8,12 @@ p {
 
  color:white;
 }
+.height-full {
+  height: 100vh;
+}
+
+
+
 .encabezado{
   text-align: center;
 }
